@@ -19,18 +19,20 @@
 
 <body>
     
-<div class=" container">
-    <div class="row">
-        <div class="form col-md" id="form1">
-            <h2>PHISHING URL DETECTION</h2>
-    
-            <br>
-            <form action="/" method ="post">
-                <input type="text" class="form__input" name ='url' id="url" placeholder="Enter URL" required="" />
-                <label for="url" class="form__label">URL</label>
-                <button class="button" role="button" >Check here</button>
-            </form>
-           
+<div class="main-body">
+    <div class="form" id="form1">
+        <H2>PHISHING URL DETECTION</H2>
+
+    <br><br><br>
+        <form action="/predict" method ="post">
+            <input type="text" class="form__input" name ='url' id="url" placeholder="Enter URL" required="" />
+            <label for="url" class="form__label">URL</label>
+            <button class="button" role="button" >Check here</button>
+        </form>
+        
+        <br>
+    <br>
+    <p>©2021 VAIBHAV BICHAVE</p>
     </div>
     
     <div class="col-md" id="form2">
